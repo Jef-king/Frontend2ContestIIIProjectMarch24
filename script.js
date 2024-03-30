@@ -27,7 +27,7 @@ passwordInput.addEventListener("blur", () => {
         submitBtn.disabled = true;
         successMessage.textContent=''
     }else{
-        passwordError.textContent = 'git';
+        passwordError.textContent = '';
         submitBtn.disabled = false;
     }
   });
