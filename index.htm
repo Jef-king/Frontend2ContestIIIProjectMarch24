@@ -9,16 +9,17 @@
 </head>
 <body>
     <div class="container">
-        <form id="signup-form">
+        <form id="signUp">
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <span class="error" id="email-error"></span>
-
+            <input type="text" id="email" name="email" required>
+            <span class="error" id="erEmail"></span>
+            <br>
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
-            <span class="error" id="password-error"></span>
-
-            <button type="submit">Sign Up</button>
+            <span class="error" id="erPassword"></span>
+            <span class="success" id="success"></span>
+            <br>
+            <button type="submit" id="checkSubmit">Sign Up</button>
         </form>
     </div>
     <script src="script.js"></script>

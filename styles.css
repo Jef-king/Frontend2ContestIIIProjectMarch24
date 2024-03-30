@@ -9,15 +9,22 @@ body {
     background-color: #f9f9f9;
     border-radius: 5px;
 }
-
+label{
+    margin:10px;
+}
 input {
     width: 100%;
     padding: 10px;
+    margin:0px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
 }
-
+button{
+    margin:10px;
+    width:100px;
+    height:40px;
+}
 .error {
     color: red;
 }
